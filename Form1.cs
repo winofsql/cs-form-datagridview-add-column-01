@@ -10,6 +10,7 @@ namespace cs_form_datagridview_add_column_01
         {
             InitializeComponent();
 
+            dataGridView1.Columns.Clear();
             dataGridView1.ColumnCount = 2;
             dataGridView1.Columns[0].Name = "環境変数";
             dataGridView1.Columns[1].Name = "値";
